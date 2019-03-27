@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section id="projects">
+  <header>
+    <h1>Thing I've built</h1>
+    <h2>Here you can find example of things that I have worked on</h2>
+  </header>
+  {% for project in site.data.projects %}
+  <article>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.description }}</p>
+    {% if project.github %}
+    <p>
+      GitHub: <a href="{{ project.github }}"> {{ project.github }}</a>
+    </p>
+    {% endif %} {% if project.website %}
+    <p>
+      Website: <a href="{{ project.website }}"> {{ project.website }}</a>
+    </p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
