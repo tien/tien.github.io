@@ -1,0 +1,12 @@
+- name: Pokédex
+  description: An interactive Pokédex powered by React js
+  github: https://github.com/tien/pokedex/
+  website: https://tien.github.io/pokedex/
+
+- name: Regrest js
+  description: Micro Promise based HTTP client for the browser and node.js
+  github: https://github.com/tien/regrest/
+
+- name: Aroaro
+  description: Realtime multiuser collaborative VR learning environment
+  github: https://github.com/UABS-ISOM/aroaro/
