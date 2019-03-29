@@ -7,6 +7,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin: 8px 0 0 0;
 }
@@ -30,10 +32,10 @@ h1 {
 
 #main-footer {
   text-align: right;
-  vertical-align: middle;
   color: white;
   background-color: black;
   padding: 15px;
+  margin-top: auto;
 }
 
 @media screen and (min-width: 45em) {
@@ -41,7 +43,6 @@ h1 {
     display: grid;
     grid-template-columns: 15rem 1fr;
     grid-template-rows: 1fr;
-    margin: 0;
   }
 
   #main-footer {
@@ -49,5 +50,6 @@ h1 {
     grid-row: 2/3;
     height: 20px;
     line-height: 20px;
+    margin: 0;
   }
 }
