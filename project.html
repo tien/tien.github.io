@@ -5,11 +5,14 @@ layout: default
 <section id="projects">
   <header>
     <h1>Thing I've built</h1>
-    <h4>Here you can find example of things that I have worked on</h2>
+    <h3>Here you can find example of things that I have worked on</h3>
   </header>
+
+  <hr/>
+
   {% for project in site.data.projects %}
   <article>
-    <h3>{{ project.title }}</h3>
+    <h4>{{ project.name }}</h4>
     <p>{{ project.description }}</p>
     {% if project.github %}
     <p>
@@ -21,5 +24,8 @@ layout: default
     </p>
     {% endif %}
   </article>
+
+  <hr/>
+
   {% endfor %}
 </section>
