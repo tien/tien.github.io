@@ -5,10 +5,12 @@
   <body>
     {% include nav.html %}
 
-    <main class="page-content">
+    <main id="page-content">
       {{ content }}
     </main>
-  </body>
 
-  {% include footer.html %}
+    {% include footer.html %}
+
+    <script src="/assets/js/index.js"></script>
+  </body>
 </html>

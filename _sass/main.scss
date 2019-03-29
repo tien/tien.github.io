@@ -1,3 +1,53 @@
-.page-content {
-    padding: 0 3rem;
+@import url("https://fonts.googleapis.com/css?family=Bungee|Roboto+Slab");
+
+html {
+  font-size: calc(1em + 0.25vw);
+  font-family: "Roboto Slab", serif;
+  //   font-family: Arial, Helvetica Neue, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 8px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee", cursive;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+#page-content {
+  padding: 0 3rem;
+}
+
+#main-footer {
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+  background-color: black;
+  padding: 15px;
+}
+
+@media screen and (min-width: 45em) {
+  body {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+  }
+
+  #main-footer {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 20px;
+    line-height: 20px;
+  }
 }
