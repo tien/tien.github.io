@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% if site.posts.size == 0 %}
+<h1>Hang on, I will write something, promise ✍️👌</h1>
+{% else %} {% for post in site.posts %}
+<a href="{{ post.url }}">
+  <h2>{{ post.title }}</h2>
+  <time>{{ post.date | date_to_string }}</time>
+</a>
+{% endfor %} {% endif %}
