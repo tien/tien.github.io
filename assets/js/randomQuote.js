@@ -5,7 +5,7 @@ function getRandomInt(min, max) {
 const quotesList = [
   "This is how I look in real life",
   "Me everytime I see 🍰",
-  "Unideintified smiling object",
+  "Unidentified smiling object",
   "Have you seen my pet 🦄",
   "Proud to be 🥝",
   "Only speak 🔥"
