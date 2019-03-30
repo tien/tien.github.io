@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Roboto+Slab");
 
 html {
+  // Global variables
+  --background-color: white;
+  --foreground-color: black;
+  --hyper-link-color: blue;
+
   font-size: calc(1em + 0.25vw);
   font-family: "Roboto Slab", serif;
-  //   font-family: Arial, Helvetica Neue, sans-serif;
 }
 
 body {
+  color: var(--foreground-color);
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,8 +29,21 @@ h6 {
 }
 
 hr {
-  border-color: black;
+  border-color: var(--foreground-color);
   border-style: solid;
+}
+
+a {
+  color: var(--hyper-link-color);
+}
+
+button {
+  font-family: inherit;
+  color: var(--background-color);
+  background-color: var(--foreground-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #page-wrapper {
@@ -34,11 +53,21 @@ hr {
 }
 
 #main-footer {
-  text-align: right;
-  color: white;
-  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: var(--background-color);
+  background-color: var(--foreground-color);
   padding: 15px;
   margin-top: auto;
+
+  button {
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+  }
+
+  :nth-child(2) {
+    text-align: right;
+  }
 }
 
 a.link-to-post {
