@@ -19,3 +19,4 @@ timezone: Pacific/Auckland
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
