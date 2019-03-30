@@ -16,11 +16,11 @@ layout: default
     <p>{{ project.description }}</p>
     {% if project.github %}
     <p>
-      GitHub: <a href="{{ project.github }}"> {{ project.github }}</a>
+      GitHub: <a target="_blank" rel="noopener noreferrer" href="{{ project.github }}"> {{ project.github }}</a>
     </p>
     {% endif %} {% if project.website %}
     <p>
-      Website: <a href="{{ project.website }}"> {{ project.website }}</a>
+      Website: <a target="_blank" rel="noopener noreferrer" href="{{ project.website }}"> {{ project.website }}</a>
     </p>
     {% endif %}
   </article>
