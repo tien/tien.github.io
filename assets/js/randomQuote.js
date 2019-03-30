@@ -20,11 +20,9 @@ const prevQuoteIndex = parseInt(window.localStorage.getItem("quoteIndex"), 10);
 let dice = getRandomInt(0, quotesList.length - 1);
 
 if (prevQuoteIndex !== NaN) {
-  console.log(prevQuoteIndex, dice);
   // If prev quote have been set in local storage
   // Re-role dice until we got a different index number
   while (dice === prevQuoteIndex) {
-    console.log(prevQuoteIndex, dice);
     dice = getRandomInt(0, quotesList.length - 1);
   }
 
