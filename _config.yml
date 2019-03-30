@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is my site, about me Tien or Tien Nguyen Khac (in full for the SEO).
   I write software, love it and would also love to share my passion in full
   for the whole world to see
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tien.github.io" # the base hostname & protocol for your site
 linkedin_username: tien
 github_username: tien

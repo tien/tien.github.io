@@ -9,7 +9,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   margin: 8px 0 0 0;
 }
 
@@ -32,6 +33,10 @@ hr {
 }
 
 #page-content {
+  overflow-y: auto;
+}
+
+#page-wrapper {
   max-width: 40rem;
   margin: 0 auto;
   padding: 2.25rem;
