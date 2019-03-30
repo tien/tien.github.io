@@ -22,10 +22,6 @@ h6 {
   font-family: "Bungee", cursive;
 }
 
-h1 {
-  font-size: 150%;
-}
-
 hr {
   border-color: black;
   border-style: solid;
@@ -43,6 +39,15 @@ hr {
   background-color: black;
   padding: 15px;
   margin-top: auto;
+}
+
+a.link-to-post {
+  color: inherit;
+  text-decoration: none;
+
+  h3 {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 45em) {
