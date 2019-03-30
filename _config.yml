@@ -22,7 +22,7 @@ permalink: /:year/:title:output_ext
 
 # Other settings
 timezone: Pacific/Auckland
-google_site_verification: R87NmJwaonmbLqt2MIvNaOX31SBWmENZmRRaPBH3IwM
+google_site_verification: 1AsH8ct9TgDckOx8UX5LpSe0DkxLIBlGkb3EsKXWH7k
 
 # Front matter default settings
 defaults:
