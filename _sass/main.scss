@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  overflow: hidden;
   margin: 8px 0 0 0;
 }
 
@@ -32,10 +31,6 @@ hr {
   border-style: solid;
 }
 
-#page-content {
-  overflow-y: auto;
-}
-
 #page-wrapper {
   max-width: 40rem;
   margin: 0 auto;
@@ -52,9 +47,14 @@ hr {
 
 @media screen and (min-width: 45em) {
   body {
+    overflow: hidden;
     display: grid;
     grid-template-columns: 15rem 1fr;
     grid-template-rows: 1fr;
+  }
+
+  #page-content {
+    overflow-y: auto;
   }
 
   #main-footer {
