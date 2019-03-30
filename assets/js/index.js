@@ -15,14 +15,12 @@ const setDarkMode = bool => {
   if (bool) {
     document.documentElement.style.setProperty("--background-color", "black");
     document.documentElement.style.setProperty("--foreground-color", "white");
-    document.documentElement.style.setProperty("--hyper-link-color", "white");
     mainAvatar.style.setProperty("filter", "invert(1)");
     darkModeStateIndicator.textContent = "on";
     window.localStorage.setItem("darkMode", "true");
   } else {
     document.documentElement.style.setProperty("--background-color", "white");
     document.documentElement.style.setProperty("--foreground-color", "black");
-    document.documentElement.style.setProperty("--hyper-link-color", "blue");
     mainAvatar.style.setProperty("filter", "none");
     darkModeStateIndicator.textContent = "off";
     window.localStorage.setItem("darkMode", "false");

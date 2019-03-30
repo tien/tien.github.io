@@ -4,7 +4,6 @@ html {
   // Global variables
   --background-color: white;
   --foreground-color: black;
-  --hyper-link-color: blue;
 
   font-size: calc(1em + 0.25vw);
   font-family: "Roboto Slab", serif;
@@ -34,7 +33,7 @@ hr {
 }
 
 a {
-  color: var(--hyper-link-color);
+  color: var(--foreground-color);
 }
 
 button {
