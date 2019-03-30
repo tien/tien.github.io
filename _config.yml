@@ -6,7 +6,7 @@ description: >
   Tien's awesome website, an ordinary yet
   awesome bloke who love to write softwares
 baseurl: ""
-url: "http://tien.github.io"
+url: "https://tien.github.io"
 logo: /assets/images/avatar.png
 linkedin_username: tien
 github_username: tien
