@@ -10,6 +10,11 @@ url: "https://tien.github.io"
 logo: /assets/images/avatar.png
 linkedin_username: tien
 github_username: tien
+social:
+  name: Tien Nguyen Khac
+  links:
+    - https://www.linkedin.com/in/tien/
+    - https://github.com/tien
 
 # Build settings
 markdown: kramdown
@@ -17,6 +22,7 @@ permalink: /:year/:title:output_ext
 
 # Other settings
 timezone: Pacific/Auckland
+google_site_verification: R87NmJwaonmbLqt2MIvNaOX31SBWmENZmRRaPBH3IwM
 
 # Front matter default settings
 defaults:
