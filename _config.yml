@@ -1,12 +1,12 @@
 # Site settings
 title: Hi I'm Tien
 email: tiennguyenkhac1702@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is my site, about me Tien or Tien Nguyen Khac (in full for the SEO).
-  I write software, love it and would also love to share my passion in full
-  for the whole world to see
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tien.github.io" # the base hostname & protocol for your site
+description: >
+  Tien's awesome website, and ordinary yet
+  awesome bloke who love to write software
+baseurl: ""
+url: "http://tien.github.io"
+logo: /assets/images/avatar.png
 linkedin_username: tien
 github_username: tien
 
@@ -16,3 +16,6 @@ permalink: /:year/:title:output_ext
 
 # Other settings
 timezone: Pacific/Auckland
+
+plugins:
+  - jekyll-seo-tag
