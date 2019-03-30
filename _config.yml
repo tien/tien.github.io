@@ -17,6 +17,13 @@ permalink: /:year/:title:output_ext
 # Other settings
 timezone: Pacific/Auckland
 
+# Front matter default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/avatar.png
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
