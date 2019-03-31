@@ -4,7 +4,7 @@ layout: post
 
 This weekend, I have decided to take on a different approach to how web applications are usually pieced together. Normally, the architecture would generally sound like the following:
 
-- On one end, you have a server in the back sptting out data in RESTful format, preferably from some sort of database.
+- On one end, you have a server in the back spitting out data in RESTful format, preferably from some sort of database.
 - And at the front, you have some sort of massive Javascript framework whose main job is to query the data from the server, storing it in a centralised state and directing both data flow and user interactions in a timely matter. All without refreshing or redirecting.
 - This approach is called Single Page Application architecture.
 
