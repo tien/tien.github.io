@@ -8,8 +8,14 @@ description: >
 baseurl: ""
 url: "https://tien.github.io"
 logo: /assets/images/avatar.png
-linkedin_username: tien
-github_username: tien
+linkedin:
+  username: tien
+  url: https://www.linkedin.com/in/tien/
+github:
+  username: tien
+  url: https://github.com/tien
+
+# This is used by the Jekyll SEO plugin
 social:
   name: Tien Nguyen Khac
   links:
