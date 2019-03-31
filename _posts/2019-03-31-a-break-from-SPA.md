@@ -43,7 +43,7 @@ Keeping in spirit with the topic of static websites, the website is designed in 
 - Every URL path ending with the .html suffix.
 - Zero animations.
 - The huge obnoxious copyright notice at the bottom of the page.
-- The only thing missing is the occasional random 3D dancing baby or some other crap (I just couldn't bring myself to doing it 😂).
+- The only thing missing is the occasional random 3D dancing baby or some other crap (I just couldn't bring myself to do it 😂).
 
 ### To sum up
 
