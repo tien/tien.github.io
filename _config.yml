@@ -22,10 +22,6 @@ social:
     - https://www.linkedin.com/in/tien/
     - https://github.com/tien
 
-# Build settings
-markdown: kramdown
-permalink: /:year/:title:output_ext
-
 # Other settings
 timezone: Pacific/Auckland
 google_site_verification: 1AsH8ct9TgDckOx8UX5LpSe0DkxLIBlGkb3EsKXWH7k
