@@ -47,4 +47,4 @@ Keeping in spirit with the topic of static websites, the website is designed in 
 
 ### To sum up
 
-As this is an open-source project, feels free to re-use any of the styling or scripts that come with this website, giving credit or shoutout to the original page/author would be highly appreciated but is not required. If you have any questions or feedback related to this post or website, please direct them to my [LinkedIn]({{site.linkedin.url}}). I would love to have a chat about it. Thanks for reading!
+As this is an open-source project, feels free to re-use any of the stylings or scripts that come with this website, giving credit or shoutout to the original page/author would be highly appreciated but is not required. If you have any questions or feedback related to this post or website, please direct them to my [LinkedIn]({{site.linkedin.url}}). I would love to have a chat about it. Thanks for reading!
