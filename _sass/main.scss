@@ -92,6 +92,8 @@ a.link-to-post {
 
   #page-content {
     overflow-y: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
 
   #main-footer {
