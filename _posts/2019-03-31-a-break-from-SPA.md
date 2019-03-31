@@ -35,7 +35,7 @@ Static site generators keep all of the pros while eliminating the need to manual
 
 ### Back to the subject
 
-So that is exactly what I did for this weekend's project, a throwback to the old days of making static websites, which coincidentally is the very page where you are reading this post from (or at [tien.github.io](https://tien.github.io/) if I do decide to share the post elsewhere). This website is powered by Jekyll and is hosted on GitHub as an open-source project.
+So that is exactly what I did for this weekend's project, a throwback to the old days of making static websites, which coincidentally is the very page where you are reading this post from (or at [tien.github.io](https://tien.github.io/) if I do decide to share the post elsewhere). This website is powered by [Jekyll](https://jekyllrb.com/) and is hosted on [GitHub](https://github.com/tien/tien.github.io) as an open-source project.
 
 Keeping in spirit with the topic of static websites, the website is designed in a way to capture the feeling and aesthetic of the old web as close as possible:
 
