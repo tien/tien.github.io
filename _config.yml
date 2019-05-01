@@ -25,6 +25,9 @@ social:
 # Other settings
 timezone: Pacific/Auckland
 google_site_verification: 1AsH8ct9TgDckOx8UX5LpSe0DkxLIBlGkb3EsKXWH7k
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-139436381-1
 
 # Front matter default settings
 defaults:
@@ -34,5 +37,6 @@ defaults:
       image: /assets/images/avatar.png
 
 plugins:
+  - jekyll-analytics
   - jekyll-seo-tag
   - jekyll-sitemap
