@@ -2,9 +2,7 @@
 title: Hi I'm Tien
 author: Tien Nguyen Khac
 email: tiennguyenkhac1702@gmail.com
-description: >
-  Tien's awesome website, an ordinary yet
-  awesome bloke who loves to write software
+description: Tien's awesome website
 baseurl: ""
 url: "https://tien.github.io"
 logo: /assets/images/avatar.png
