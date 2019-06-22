@@ -8,5 +8,4 @@
   github: https://github.com/tien/regrest/
 
 - name: Aroaro
-  description: Realtime multiuser collaborative VR learning environment
-  github: https://github.com/UABS-ISOM/aroaro/
+  description: Realtime multiuser collaborative VR learning environment. Built for the 2018 University of Auckland summer research project.
