@@ -1,7 +1,7 @@
 - name: Pokédex
   description: An interactive Pokédex powered by React js
   github: https://github.com/tien/pokedex/
-  website: https://tien.github.io/pokedex/
+  website: https://pokedex.digital
 
 - name: Regrest js
   description: Micro Promise based HTTP client for the browser and node.js
