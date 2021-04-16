@@ -1,7 +1,16 @@
+- name: Pi-hole® Connect
+  description: Android client for Pi-hole®
+  github: https://github.com/tien/pi-hole-connect
+  website: https://play.google.com/store/apps/details?id=com.tien.piholeconnect
+
 - name: Pokédex
   description: An interactive Pokédex powered by React js
   github: https://github.com/tien/pokedex/
   website: https://pokedex.digital
+
+- name: react-airplay
+  description: Airplay bridge for React Native
+  github: https://github.com/tien/react-airplay
 
 - name: Regrest js
   description: Micro Promise based HTTP client for the browser and node.js
