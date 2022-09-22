@@ -1,10 +1,10 @@
 # Site settings
-title: Hi I'm Tien
-author: Tien Nguyen Khac
-email: tiennguyenkhac1702@gmail.com
+title: Hi I'm Tiến
+author: Tiến Nguyễn Khắc
+email: tien.nguyenkhac@icloud.com
 description: Tien's awesome website
 baseurl: ""
-url: "https://tien.github.io"
+url: "https://tien.zone"
 logo: /assets/images/avatar.png
 linkedin:
   username: tien
@@ -15,7 +15,7 @@ github:
 
 # This is used by the Jekyll SEO plugin
 social:
-  name: Tien Nguyen Khac
+  name: Tiến Nguyễn Khắc
   links:
     - https://www.linkedin.com/in/tien/
     - https://github.com/tien
