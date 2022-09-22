@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Roboto+Slab&display=swap");
 
-html {
+:root {
   // Global variables
   --background-color: white;
   --foreground-color: black;
 
   font-size: calc(1em + 0.25vw);
   font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {

@@ -5,7 +5,7 @@ email: tien.nguyenkhac@icloud.com
 description: Tien's awesome website
 baseurl: ""
 url: "https://tien.zone"
-logo: /assets/images/avatar.png
+logo: /assets/images/avatar.svg
 linkedin:
   username: tien
   url: https://www.linkedin.com/in/tien/
@@ -28,7 +28,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/avatar.png
+      image: /assets/images/avatar.svg
 
 plugins:
   - jekyll-seo-tag
