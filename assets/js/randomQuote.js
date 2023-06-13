@@ -8,7 +8,7 @@ const quotesList = [
   "Unidentified smiling object",
   "Have you seen my pet 🦄",
   "Proud to be 🥝",
-  "Only speak 🔥"
+  "Only speak 🔥",
 ];
 
 const mainQuote = document.getElementById("main-quote");

@@ -5,13 +5,12 @@ const menu = nav.getElementsByClassName("nav-bar")[0];
 const menuButton = nav.getElementsByClassName("menu-button")[0];
 
 const darkModeButton = document.getElementById("dark-mode-button");
-const darkModeStateIndicator = darkModeButton.getElementsByClassName(
-  "dark-mode-state"
-)[0];
+const darkModeStateIndicator =
+  darkModeButton.getElementsByClassName("dark-mode-state")[0];
 
 const getDarkMode = () => JSON.parse(window.localStorage.getItem("darkMode"));
 
-const setDarkMode = bool => {
+const setDarkMode = (bool) => {
   if (bool) {
     document.documentElement.style.setProperty("--background-color", "black");
     document.documentElement.style.setProperty("--foreground-color", "white");
@@ -27,11 +26,11 @@ const setDarkMode = bool => {
   }
 };
 
-menuButton.addEventListener("click", function() {
+menuButton.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
 
-darkModeButton.addEventListener("click", function() {
+darkModeButton.addEventListener("click", function () {
   if (getDarkMode()) {
     setDarkMode(false);
   } else {

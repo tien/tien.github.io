@@ -12,4 +12,4 @@ Even when an idea was solidified and the dev team started hammering away with co
 
 We finished the prototype just in time for the pitch, which went swimmingly. Well done team! Everyone celebrated, cracked open few drinks and called it a day. Its amazing how 6 strangers and one hastily hacked together but relatively-polished prototype snatched us First place for the Temasys global prize. I myself was amazed by what I could achieve, while still in my University years. I cannot give enough thanks for the opportunities that TADHack have given us and the people that help organized it.
 
-[Link to original article on TADHack](http://blog.tadhack.com/2017/11/29/tien-nguyen-khac-on-tadhack-auckland/){:target="_blank" rel="noopener noreferrer"}
+[Link to original article on TADHack](http://blog.tadhack.com/2017/11/29/tien-nguyen-khac-on-tadhack-auckland/){:target="\_blank" rel="noopener noreferrer"}
