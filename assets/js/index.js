@@ -8,7 +8,7 @@ const darkModeButton = document.getElementById("dark-mode-button");
 const darkModeStateIndicator =
   darkModeButton.getElementsByClassName("dark-mode-state")[0];
 
-const getDarkMode = () => JSON.parse(window.localStorage.getItem("darkMode"));
+const isDarkMode = () => JSON.parse(window.localStorage.getItem("darkMode"));
 
 const setDarkMode = (bool) => {
   if (bool) {
@@ -31,7 +31,7 @@ menuButton.addEventListener("click", function () {
 });
 
 darkModeButton.addEventListener("click", function () {
-  if (getDarkMode()) {
+  if (isDarkMode()) {
     setDarkMode(false);
   } else {
     setDarkMode(true);
@@ -39,7 +39,7 @@ darkModeButton.addEventListener("click", function () {
 });
 
 // Init
-if (getDarkMode()) {
+if (isDarkMode()) {
   setDarkMode(true);
 } else {
   setDarkMode(false);
