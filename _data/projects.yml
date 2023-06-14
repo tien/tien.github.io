@@ -3,18 +3,11 @@
   github: https://github.com/tien/pi-hole-connect
   website: https://play.google.com/store/apps/details?id=com.tien.piholeconnect
 
-- name: Pokédex
-  description: An interactive Pokédex powered by React js
-  github: https://github.com/tien/pokedex/
-  website: https://pokedex.digital
+- name: Talisman Portal
+  description: A Polkadot, Kusama & Parachain dashboard for the community
+  github: https://github.com/TalismanSociety/talisman-web
+  website: https://app.talisman.xyz
 
 - name: react-airplay
   description: Airplay bridge for React Native
   github: https://github.com/tien/react-airplay
-
-- name: Regrest js
-  description: Micro Promise based HTTP client for the browser and node.js
-  github: https://github.com/tien/regrest/
-
-- name: Aroaro
-  description: Realtime multiuser collaborative VR learning environment. Built for the 2018 University of Auckland summer research project.
