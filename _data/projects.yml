@@ -1,12 +1,17 @@
-- name: Pi-hole® Connect
-  description: Android client for Pi-hole®
-  github: https://github.com/tien/pi-hole-connect
-  website: https://play.google.com/store/apps/details?id=com.tien.piholeconnect
+- name: Reactive DOT
+  description: A reactive library for building Substrate front-ends
+  github: https://github.com/tien/reactive-dot
+  website: https://reactivedot.dev/
 
 - name: Talisman Portal
   description: A Polkadot, Kusama & Parachain dashboard for the community
   github: https://github.com/TalismanSociety/talisman-web
-  website: https://app.talisman.xyz
+  website: https://app.talisman.xyz/
+
+- name: Pi-hole® Connect
+  description: Android client for Pi-hole®
+  github: https://github.com/tien/pi-hole-connect
+  website: https://play.google.com/store/apps/details?id=com.tien.piholeconnect
 
 - name: react-airplay
   description: Airplay bridge for React Native
