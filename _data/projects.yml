@@ -3,6 +3,16 @@
   github: https://github.com/tien/reactive-dot
   website: https://reactivedot.dev/
 
+- name: DOT Connect
+  description: Wallets connector for Substrate DApps
+  github: https://github.com/tien/dot-connect
+  website: https://dotconnect.dev/
+
+- name: ĐÓTConsole
+  description: Substrate development console
+  github: https://github.com/tien/dot-console
+  website: https://dotconsole.app/
+
 - name: Talisman Portal
   description: A Polkadot, Kusama & Parachain dashboard for the community
   github: https://github.com/TalismanSociety/talisman-web
